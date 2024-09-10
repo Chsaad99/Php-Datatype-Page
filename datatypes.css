@@ -1,0 +1,717 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    width: 20%;
+    background-color: rgb(229, 233, 243);
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    position: fixed;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.same a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#han {
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.btn2 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn3:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#hr1 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#home {
+    border-right: 0.5px solid rgb(189, 187, 187);
+    height: auto;
+    margin-right: 5px;
+}
+
+#PHP {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#var {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+#ul {
+    font-weight: 0;
+    padding-left: 40px;
+    line-height: 20px;
+}
+
+#hr2 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+#get {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#you {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+#jerry {
+    width: 95%;
+    height: 260px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#Is {
+    font-weight: 0;
+    font-size: 27px;
+    padding-left: 40px;
+    float: left;
+}
+
+.btn5 {
+    background-color: rgb(32, 30, 30);
+    border: 1px solid rgb(34, 33, 33);
+    height: 40px;
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn5:hover {
+    background-color: rgb(44, 46, 44);
+}
+
+#fun {
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+#white {
+    width: 90%;
+    height: 70px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 4%;
+    background-color: white;
+    border-left: 3px solid rgb(72, 173, 72);
+}
+
+#tadow {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#love {
+    margin-top: -45px;
+    margin-left: 20px;
+}
+
+.btn6 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+
+.btn6 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn6:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+#hr3 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+#String {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#A {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#jerry1 {
+    width: 95%;
+    height: 330px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#Saad {
+    font-weight: 0;
+    font-size: 27px;
+    padding-left: 40px;
+    float: left;
+    margin-top: 20px;
+}
+
+#white1 {
+    width: 90%;
+    height: 200px;
+    border: 1px solid white;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: white;
+    border-left: 3px solid rgb(72, 173, 72);
+}
+
+.btn7 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.btn7 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn7:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+#hr4 {
+    margin-left: 18px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+#x {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+#y {
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+#moon {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+#green {
+    margin-top: -45px;
+    margin-left: 30px;
+}
+
+#brown {
+    margin-top: -45px;
+    margin-left: 30px;
+}
+
+#Integer {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#non {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#rules {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+.ali {
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+#In {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#jerry2 {
+    width: 95%;
+    height: 260px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#Float {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#floating {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#dump {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#jerry3 {
+    width: 95%;
+    height: 240px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#laptop {
+    background-color: white;
+    height: 100px;
+    width: 90%;
+    border-left: 3px solid rgb(72, 173, 72);
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+#foot {
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+#glass {
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.button {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+#Boolean {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#represents {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#jerry4 {
+    width: 95%;
+    height: 240px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#bool {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#bool1 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#chanda {
+    color: green;
+}
+
+#chanda:hover {
+    color: rgb(48, 207, 48);
+}
+
+#Array {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#Array1 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#Array2 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#tutorial {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#Object {
+    font-weight: 0;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#object1 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#object2 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#object3 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#object4 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#object5 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#object6 {
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+#jerry5 {
+    width: 95%;
+    height: 500px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid rgb(191, 245, 138);
+    margin: 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#blacky {
+    background-color: white;
+    height: 350px;
+    width: 90%;
+    border-left: 3px solid rgb(72, 173, 72);
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+#public {
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+#public1 {
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+#public2 {
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+#public3 {
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+#public4 {
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+#public5 {
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+#public6 {
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+#public7 {
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+#public8 {
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+#public9 {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+#public10 {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.button1 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgb(37, 190, 50);
+}
